@@ -22,4 +22,4 @@
     const characters = document.querySelectorAll("span[data-function='testMe']");
     console.log(characters[2]);
 
-    //Los he colocado en el HTML para poder hacer las pruebas, ya que en el terminal no supe ver los elementos.
+    //Los he colocado en el HTML para poder hacer las pruebas, y así no usar el defer
