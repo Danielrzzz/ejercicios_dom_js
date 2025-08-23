@@ -50,3 +50,9 @@ for (let i = 0; i < deleteElements.length; i++) {
 }
 
 //2.8
+let firstInsert = document.querySelectorAll(".fn-insert-here");
+let firstDiv = firstInsert[2];
+
+let newInsert = document.createElement("p");
+newInsert.textContent = "Voy en medio!";
+document.body.insertBefore(newInsert, firstDiv);
