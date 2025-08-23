@@ -40,9 +40,7 @@ for (let i = 0; i < apps.length; i++) {
     liElement.textContent = apps[i];
     ulList.appendChild(liElement);
 }
-
 document.body.appendChild(ulList);
-
 
 
 //2.7
@@ -50,3 +48,5 @@ let deleteElements = document.querySelectorAll(".fn-remove-me");
 for (let i = 0; i < deleteElements.length; i++) {
     deleteElements[i].remove();
 }
+
+//2.8
