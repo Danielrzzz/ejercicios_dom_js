@@ -17,3 +17,17 @@ inputInput.addEventListener("input", function(){
 });
 
 //4.4
+const albums = [
+  "De Mysteriis Dom Sathanas",
+  "Reign of Blood",
+  "Ride the Lightning",
+  "Painkiller",
+  "Iron Fist",
+];
+let listUl = document.createElement("ul");
+for(let i = 0;i < albums.length;i ++){
+    let Element = document.createElement("li");
+    Element.textContent = albums[i];
+    listUl.appendChild(Element);
+}
+document.body.appendChild(listUl);
